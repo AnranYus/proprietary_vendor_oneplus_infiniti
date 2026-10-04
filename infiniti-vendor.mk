@@ -1161,6 +1161,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/infiniti/proprietary/vendor/etc/ltm_config_AA601_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA601_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/ltm_config_AD296_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AD296_P_3_A0020_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/infiniti/proprietary/vendor/etc/multimedia_display_adfr2minfps_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/multimedia_display_adfr2minfps_config.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/spr_cfg_AA601_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spr_cfg_AA601_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/spr_cfg_AD296_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spr_cfg_AD296_P_3_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/infiniti/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
