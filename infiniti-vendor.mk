@@ -937,6 +937,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_debug_ui.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_debug_ui.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_process.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_process.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/init.camera_upate.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_upate.rc \
+    vendor/oneplus/infiniti/proprietary/odm/etc/init/mosey.rc:$(TARGET_COPY_OUT_ODM)/etc/init/mosey.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/infiniti/proprietary/odm/etc/libnfc-mtp-SN220.conf_24831:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_24831 \
     vendor/oneplus/infiniti/proprietary/odm/etc/libnfc-mtp-SN220.conf_24863:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_24863 \
@@ -1153,6 +1154,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/infiniti/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/infiniti/proprietary/product/etc/permissions/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml \
+    vendor/oneplus/infiniti/proprietary/system_ext/etc/default-permissions/default-permissions-com.google.android.mosey.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/default-permissions-com.google.android.mosey.xml \
+    vendor/oneplus/infiniti/proprietary/system_ext/etc/permissions/privapp-permissions-com.google.android.mosey.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-com.google.android.mosey.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/acdbdata/canoe_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/canoe_mtp/acdb_cal.acdb \
     vendor/oneplus/infiniti/proprietary/vendor/etc/display/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml \
     vendor/oneplus/infiniti/proprietary/vendor/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA601_P_7_A0020_dsc_cmd_mode_panel.xml \
@@ -1784,6 +1787,7 @@ PRODUCT_PACKAGES += \
     libhybridraw_datas \
     libhybridraw_tuningparams \
     libimgClarityEvaluate \
+    libmosey_daemon_ffi \
     libmpbase \
     libmsnativefilter \
     libmvgcommon \
@@ -1834,12 +1838,15 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libtfadsp_sb5_5_tx_so \
     odm_lib_rfsa_adsp_nlc_bgth_v1_5_so \
     EuiccGoogle \
+    MoseyApp \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.provider.xml \
+    manifest_mosey.xml \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.oplus.camera.aon-impl.xml \
     vendor.qti.camera.provider-service_64 \
-    vendor.oplus.hardware.cammidasservice-V1-service
+    vendor.oplus.hardware.cammidasservice-V1-service \
+    mosey_server
